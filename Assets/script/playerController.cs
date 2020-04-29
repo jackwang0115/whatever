@@ -82,6 +82,13 @@ public class playerController : MonoBehaviour
             StartCoroutine(CDtimer());
         }
     }
+    void skillX()//x技能
+    {
+        if (Input.GetKey(KeyCode.X) && SkillXCD <= 0) 
+        { 
+            
+        }
+    }
     void skillC()//C技能
     {
         if (Input.GetKey(KeyCode.C) && SkillCCD <=0)
